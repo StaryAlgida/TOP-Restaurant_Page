@@ -11,24 +11,24 @@ export default function page2(){
     content1.innerHTML = `<h2>Space Burger</h2>
     <div>
         <img class="food-img" src="${Burger}">
-        <p><b>Only this week!!!</b></p>
-        <p class="price">12.99$</p>
+        <h3>Only this week!!!</h3>
+        <p class="price">Price: 12.99$</p>
     </div>`;
     const content2 = document.createElement('div');
     content2.classList.add("samll-container");
     content2.innerHTML = `<h2>Space Toamto Soup</h2>
     <div>
         <img class="food-img" src="${Soup}">
-        <p><b>Made from fresh tomatoes!!!</b></p>
-        <p class="price">5$</p>
+        <h3>Made from fresh moon tomatoes!!!</h3>
+        <p class="price">Price: 5.00$</p>
     </div>`;
     const content3 = document.createElement('div');
     content3.classList.add("samll-container");
-    content3.innerHTML = `<h2>Chicken Wings</h2>
+    content3.innerHTML = `<h2>Supersonic Chicken Wings</h2>
     <div>
         <img class="food-img" src="${Chicken}">
-        <p><b>Extra crispy!!!</b></p>
-        <p class="price">8$</p>
+        <h3>Extra crispy!!!</h3>
+        <p class="price">Price: 8.00$</p>
     </div>`;
 
     pageContainer.appendChild(content1);

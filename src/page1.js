@@ -50,7 +50,8 @@ function content3_create(){
     h2.innerText = "Location";
 
     const p = document.createElement('p');
-    p.innerText = "We are here.";
+    p.id = "here";
+    p.innerHTML = "We are here.";
 
     const img = document.createElement('img');
     img.src = Map;
