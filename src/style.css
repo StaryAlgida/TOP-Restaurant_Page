@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+    background-color: rgb(59, 59, 59);
+}
+
+#cook-img{
+    width: 500px;
+    border-radius: 40px;
+}
+
+.samll-container{
+    background-color: rgb(253, 253, 253);
+    border-radius: 40px;
+
+    margin-top: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+
+    border-radius: 0px 0px 20px 20px;
+
+    background-color: rgba(233, 233, 233, 0.26);
+}
+
+header button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+header button:hover{
+    background-color: antiquewhite;
+}
+
+#map-img{
+    width: 500px;
+}
+
+ul{
+    margin-top: 5px;
+    list-style-type:armenian;
+    font-size: 1.3rem;
+    
+}
+
+ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+}
